@@ -1,23 +1,25 @@
 <html>
 
 <head>
-    <title>Introduce yourself</title>
+    <title>แนะนำตัว
+        <meta charset="UTF-8">
+    </title>
+
 </head>
 
-    <body>
-        <h1>My History</h1>
-        <p> Name: Nattmaetee Channithikul
-            Nickname : Wave
-        </p>
-        <img src="cat.jpg"><img src="cat1.jpg"><img src="cat2.jpg">
-        <br>
-        <a href="http://www.it.kmitl.ac.th">This is a Link</a>
+<body>
+    <h1>ชื่อ : ณัฐเมธี จันทร์นิธิกุล<br>
+        ชื่อเล่น : เวฟ<br>
+        เรื่องตลก<br>
+        วันหนึ่ง สมชายเกิดปวดท้องขนาดหนักจึงรีบวิ่งตรงเข้าห้องน้ำสาธารณะ <br>แต่.. โชคไม่เข้าข้าง เพราะทุกห้องเต็มเหยียด
+        แถมไม่มีทีท่าว่าใครจะออกมา<br>
+        หลังจากที่เขาเดินกระวนกระวายอยู่หลายนาที เผอิญมีหญิงสาวคนหนึ่งสังเกตเห็นเข้า
+        <br>และเดาได้ว่าสมชายกำลังกลัดกลุ้มทุกข์หนัก เช่นใด...
+    </h1>
+    <img src="cat.jpg">
+    <img src="cat1.jpg">
+    <img src="cat2.jpg">
+    <br>
+</body>
 
-        <h2>The unordered list</h2>
-        <ul>
-            <li>Goodle</li>
-            <li>Yahoo</li>
-            <li>Amazon</li>
-        </ul>
-    </body>
 </html>
