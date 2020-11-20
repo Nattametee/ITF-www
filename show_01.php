@@ -14,6 +14,46 @@
     tr {
   background-color: #FFF8DC;
   }
+    .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:Delete span {
+  padding-right: 25px;
+}
+
+.button:Delete span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
     </style>
   </head>
 
@@ -78,7 +118,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <td>
         <form method="POST" action="delete.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />
-        <button type="submit" class="btn btn-danger" >Delete</button>
+        <button class="button" style="vertical-align:middle"><span>Delete </span></button>
         </form>
         <form method="POST" action="edit.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />
