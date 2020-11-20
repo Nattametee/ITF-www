@@ -8,6 +8,9 @@
     body {
   background-color: lightblue;
   }
+    table {
+  background-color: white;
+  }
     </style>
   </head>
 
