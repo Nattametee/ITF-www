@@ -60,7 +60,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 <div class="container">
 <table class="table table-bordered">
   <thead>
-    <tr class="alert alert-warning">
+    <tr class="alert alert-success">
       <th width="50"> <div align="center">Name</div></th>
       <th width="500"> <div align="center">Comment </div></th>
       <th width="100"> <div align="center">Link </div></th>
