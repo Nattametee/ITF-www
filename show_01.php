@@ -78,7 +78,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <td>
         <form method="POST" action="delete.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />
-        <button type="submit" class="btn btn-warning" >Delete</button>
+        <button type="submit" class="btn btn-danger" >Delete</button>
         </form>
         <form method="POST" action="edit.php">
          <input type="hidden" name="id" value="<?php echo $Result['ID']; ?>" />
