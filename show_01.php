@@ -70,10 +70,10 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="show_01.php">Show</a>
+            <a class="alert alert-warning" href="show_01.php">Show</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index_01.php">Insert</a>
+            <a class="alert alert-info" href="index_01.php">Insert</a>
         </ul>
       </div>
     </div>
@@ -89,7 +89,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 <div class="container">
 <table class="table table-bordered">
   <thead>
-    <tr class="alert alert-success">
+    <tr class="alert alert-danger">
       <th width="50"> <div align="center">Name</div></th>
       <th width="500"> <div align="center">Comment </div></th>
       <th width="100"> <div align="center">Link </div></th>
