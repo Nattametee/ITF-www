@@ -12,8 +12,7 @@
   background-color: white;
   }
     tr {
-  font-size:small;
-    }
+  font-size:large;
   background-color: #FFF8DC;
   }
     .button {
@@ -43,6 +42,7 @@
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+    }
     </style>
   </head>
 
