@@ -70,10 +70,10 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="alert alert-warning" href="show_1.php">Show</a>
+            <a class="alert alert-warning" href="show_01.php">Show</a>
           </li>
           <li class="nav-item">
-            <a class="alert alert-info" href="index_1.php">Insert</a>
+            <a class="alert alert-info" href="index_01.php">Insert</a>
         </ul>
       </div>
     </div>
