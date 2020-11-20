@@ -12,6 +12,8 @@
   background-color: white;
   }
     tr {
+  font-size:small;
+    }
   background-color: #FFF8DC;
   }
     .button {
