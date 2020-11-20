@@ -33,7 +33,7 @@ echo "Error deleting record: " . $conn->error;
 $conn->close();
 if ($done)
 {
-  header("show.php");
+  header("show_01.php");
   exit;
 }
 ?>
