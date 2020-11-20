@@ -22,7 +22,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="alert alert-info" href="show.php">Lab Database</a>
+      <a class="alert alert-info" href="show_01.php">Lab Database</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -30,10 +30,10 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="show.php">Show</a>
+            <a class="nav-link" href="show_01.php">Show</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.php">Insert</a>
+            <a class="nav-link" href="index_01.php">Insert</a>
         </ul>
       </div>
     </div>
@@ -43,7 +43,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
   <br>
   <br>
 <div class="container">
-<h1 class="display-3">Information</h1>
+<h1 class="display-3">DATA BASE LAB13</h1>
 </div>
   
 <div class="container">
