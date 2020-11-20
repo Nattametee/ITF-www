@@ -11,6 +11,9 @@
     table {
   background-color: white;
   }
+    tr {
+  background-color: #FFF8DC;
+  }
     </style>
   </head>
 
