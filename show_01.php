@@ -53,7 +53,6 @@
   opacity: 1;
   right: 0;
 }
-</style>
     </style>
   </head>
 
