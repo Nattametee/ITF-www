@@ -42,7 +42,7 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 if ($done)
 {
-  header("Location: https://wanat.azurewebsites.net/show.php");
+  header("Location: https://itf63070223.azurewebsites.net/show_01.php");
   exit();
 }
 ?>
