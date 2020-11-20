@@ -28,31 +28,19 @@
   cursor: pointer;
   margin: 5px;
 }
-
-.button span {
-  cursor: pointer;
+    .button_1 {
   display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:Delete span {
-  padding-right: 25px;
-}
-
-.button:Delete span:after {
-  opacity: 1;
-  right: 0;
-}
+  border-radius: 4px;
+  background-color: #009B77;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
     </style>
   </head>
 
@@ -124,7 +112,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
           <input type="hidden" name="name" value="<?php echo $Result['Name']; ?>" />
           <input type="hidden" name="comment" value="<?php echo $Result['Comment']; ?>" />
           <input type="hidden" name="link" value="<?php echo $Result['Link']; ?>" />
-        <button type="submit" class="btn btn-success" >Edit</button>
+        <button class="button_1" style="vertical-align:middle"><span>Edit </span></button>
         </form>
       </td>
     </tr>
